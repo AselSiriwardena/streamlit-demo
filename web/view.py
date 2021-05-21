@@ -6,7 +6,6 @@ import imutils
 from utils.face_detection import detect
 from web.generate_image import lowlight
 from utils.transforms_util import trans_tensor_to_pil, trans_tensor_to_b64
-import torchvision.transforms.functional as TF
 
 
 def image_input():
