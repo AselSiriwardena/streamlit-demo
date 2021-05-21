@@ -167,8 +167,6 @@ dependencies:
   - sip=4.19.8=py37hf484d3e_0
   - six=1.15.0=py37h06a4308_0
   - sqlite=3.33.0=h62c20be_0
-  - tensorboard=2.4.0=pyhc547734_0
-  - tensorboard-plugin-wit=1.6.0=py_0
   - testpath=0.4.4=pyhd3eb1b0_0
   - threadpoolctl=2.1.0=pyh5ca1d4c_0
   - tifffile=2020.10.1=py37hdd07704_2
@@ -227,8 +225,6 @@ dependencies:
     - smmap==4.0.0
     - ssim-pil==1.0.12
     - streamlit==0.80.0
-    - tensorflow==2.4.1
-    - tensorflow-estimator==2.4.0
     - termcolor==1.1.0
     - terminado==0.9.4
     - toml==0.10.2
@@ -240,4 +236,3 @@ dependencies:
     - webencodings==0.5.1
     - wrapt==1.12.1
     - yarg==0.1.9
-prefix: /home/nemo/anaconda3/envs/zerodce_env
