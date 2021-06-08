@@ -1,17 +1,18 @@
 name: zerodce_env
 channels:
-  - conda-forge
   - pytorch
+  - conda-forge
   - defaults
 dependencies:
+  - cudatoolkit=10.0
+  - python=3.7
+  - pytorch>=1.7.0
   - dominate=2.4.0
   - matplotlib=3.3.4
   - numpy=1.19.2
   - opencv=3.4.2
   - pillow=8.1.2
   - pip=21.0.1
-  - python=3.9
-  - pytorch>=1.7.0
   - pip3:
     - cmake==3.18.4
     - build-essential
